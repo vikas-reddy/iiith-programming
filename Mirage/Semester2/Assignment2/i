@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+cout << "I am a very /* GoodBoy */ Vikas//reddy 
+              /* abcdefghijklmnopqrstuv
+                      wxyz */" << endl;
+// vikasreddy Sripathi
+/*  Maheshraja   */

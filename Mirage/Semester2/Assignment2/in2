@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+        int a=1;// This is a comment
+        /*  jh kjh kjh jkl
+jkjlj
+kjk/*jl // Hi /*( Hui
+kjjl
+kjlk
+kjl
+*/
+}

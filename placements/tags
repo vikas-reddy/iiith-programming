@@ -1,0 +1,113 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BUF_SIZE	fork.c	5;"	d	file:
+DoubleLL	doubleLL.cpp	/^		DoubleLL()$/;"	f	class:DoubleLL
+DoubleLL	doubleLL.cpp	/^class DoubleLL$/;"	c	file:
+Insert	linked_list_reverse.c	/^Node* Insert(Node *head, int val)$/;"	f
+MAN	macro_example.c	2;"	d	file:
+MAX_COUNT	fork.c	4;"	d	file:
+MULT	sum_mult.c	3;"	d	file:
+Node	linked_list_reverse.c	/^} Node;$/;"	t	typeref:struct:node	file:
+OS_HP_UX_print	function_name.c	/^void OS_HP_UX_print()$/;"	f
+OS_Solaris_print	function_name.c	/^void OS_Solaris_print()$/;"	f
+OS_Windows_print	function_name.c	/^void OS_Windows_print()$/;"	f
+Print	linked_list_reverse.c	/^void Print(Node *head)$/;"	f
+RecursiveReverse	linked_list_reverse.c	/^Node* RecursiveReverse(Node *head)$/;"	f
+Reverse	linked_list_reverse.c	/^Node* Reverse(Node *head)$/;"	f
+S	c_stack.c	/^struct node *S=NULL;$/;"	v	typeref:struct:node
+SUM	sum_mult.c	2;"	d	file:
+TOTAL_ELEMENTS	preprocessor.c	3;"	d	file:
+TROB	turnoff_rightmost_on_bit.c	3;"	d	file:
+VimjamRecursiveReverse	linked_list_reverse.c	/^Node* VimjamRecursiveReverse(Node *p)$/;"	f
+X	preprocessor.c	4;"	d	file:
+array	preprocessor.c	/^int array[] = {23,34,12,17,204,99,16};$/;"	v
+bubble_sort	sorting.cpp	/^void bubble_sort(int *array, int array_length)$/;"	f
+dequeue	cpp_stack.cpp	/^		int dequeue()$/;"	f	class:queue
+enqueue	cpp_stack.cpp	/^		void enqueue(int val)$/;"	f	class:queue
+example_enum	enum.cpp	/^enum example_enum$/;"	g	file:
+f	preprocessor2.c	2;"	d	file:
+f	scanf.c	/^void f(int n)$/;"	f
+fib	fib.c	/^int fib(int n, int *p)$/;"	f
+fib2	fib.c	/^int fib2(int n, int *p)$/;"	f
+fib_iterative	fib.c	/^int fib_iterative(int n)$/;"	f
+five	enum.cpp	/^	five,$/;"	e	enum:example_enum	file:
+fnc	static.c	/^void fnc(void)$/;"	f
+foobar	Citrix_Interview.c	/^void foobar(int **p)$/;"	f
+four	enum.cpp	/^	four,$/;"	e	enum:example_enum	file:
+g	preprocessor2.c	3;"	d	file:
+h	preprocessor2.c	4;"	d	file:
+head	cpp_stack.cpp	/^		node *head;$/;"	m	class:queue	file:
+head	doubleLL.cpp	/^		node *head;$/;"	m	class:DoubleLL	file:
+heapify	sorting.cpp	/^void heapify(int *array, int array_length)$/;"	f
+info	doubleLL.cpp	/^		int info;$/;"	m	class:node	file:
+insert	doubleLL.cpp	/^		void insert(int value)$/;"	f	class:DoubleLL
+insertion_sort	sorting.cpp	/^void insertion_sort(int *array, int array_length)$/;"	f
+main	3d_array.c	/^int main()$/;"	f
+main	Citrix_Interview.c	/^int main()$/;"	f
+main	bitfield.c	/^int main()$/;"	f
+main	c_stack.c	/^int main()$/;"	f
+main	close.c	/^main()$/;"	f
+main	const.c	/^int main()$/;"	f
+main	cpp_stack.cpp	/^int main()$/;"	f
+main	doubleLL.cpp	/^int main()$/;"	f
+main	enum.cpp	/^int main()$/;"	f
+main	fib.c	/^int main()$/;"	f
+main	fork.c	/^main(void)$/;"	f
+main	function_name.c	/^int main()$/;"	f
+main	gcd.cpp	/^int main()$/;"	f
+main	linked_list_reverse.c	/^int main()$/;"	f
+main	macro_example.c	/^main()$/;"	f
+main	malloc_calloc_realloc.c	/^int main()$/;"	f
+main	pointers.c	/^int main()$/;"	f
+main	precedence.c	/^int main(){$/;"	f
+main	precedence2.c	/^main()$/;"	f
+main	preprocessor.c	/^int main()$/;"	f
+main	preprocessor2.c	/^int main()$/;"	f
+main	print.c	/^main()$/;"	f
+main	print_order.c	/^int main()$/;"	f
+main	scanf.c	/^main()$/;"	f
+main	sorting.cpp	/^int main()$/;"	f
+main	static.c	/^int main()$/;"	f
+main	string_reverse.c	/^int main()$/;"	f
+main	struct_example.c	/^main()$/;"	f
+main	sum_mult.c	/^main()$/;"	f
+main	switch.c	/^int main()$/;"	f
+main	switch2.c	/^int main()$/;"	f
+main	test.c	/^int main()$/;"	f
+main	turnoff_rightmost_on_bit.c	/^int main()$/;"	f
+main	type_cast.c	/^int main()$/;"	f
+main	union.c	/^int main()$/;"	f
+next	c_stack.c	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	cpp_stack.cpp	/^		node *next;$/;"	m	class:node	file:
+next	doubleLL.cpp	/^		node *next;$/;"	m	class:node	file:
+next	linked_list_reverse.c	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	c_stack.c	/^struct node$/;"	s	file:
+node	cpp_stack.cpp	/^class node$/;"	c	file:
+node	doubleLL.cpp	/^		node()$/;"	f	class:node
+node	doubleLL.cpp	/^class node$/;"	c	file:
+node	linked_list_reverse.c	/^typedef struct node$/;"	s	file:
+one	enum.cpp	/^	one,$/;"	e	enum:example_enum	file:
+pop	c_stack.c	/^int pop(struct node * head)$/;"	f
+prev	doubleLL.cpp	/^		node *prev;$/;"	m	class:node	file:
+print_end	doubleLL.cpp	/^		void print_end()$/;"	f	class:DoubleLL
+print_function	pointers.c	/^int print_function(int value)$/;"	f
+print_start	doubleLL.cpp	/^		void print_start()$/;"	f	class:DoubleLL
+push	c_stack.c	/^struct node* push(struct node* head, int value)$/;"	f
+queue	cpp_stack.cpp	/^		queue(){ head = NULL; }$/;"	f	class:queue
+queue	cpp_stack.cpp	/^class queue$/;"	c	file:
+recursive_reverse	doubleLL.cpp	/^		node* recursive_reverse(node* root)$/;"	f	class:DoubleLL
+reverse	doubleLL.cpp	/^		void reverse()$/;"	f	class:DoubleLL
+selection_sort	sorting.cpp	/^void selection_sort(int *array, int array_length)$/;"	f
+six	enum.cpp	/^	six,$/;"	e	enum:example_enum	file:
+somefunc	scanf.c	/^void somefunc()$/;"	f
+sqrt	preprocessor2.c	6;"	d	file:
+tail	doubleLL.cpp	/^		node *tail;$/;"	m	class:DoubleLL	file:
+three	enum.cpp	/^	three=5,$/;"	e	enum:example_enum	file:
+two	enum.cpp	/^	two=2,$/;"	e	enum:example_enum	file:
+value	c_stack.c	/^	int value;$/;"	m	struct:node	file:
+value	cpp_stack.cpp	/^		int value;$/;"	m	class:node	file:
+value	linked_list_reverse.c	/^	int value;$/;"	m	struct:node	file:

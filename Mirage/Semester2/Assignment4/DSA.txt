@@ -1,0 +1,73 @@
+                               Assignment-4
+
+1. isBST(): Write a program to determine if a given tree is a binary search tree or not. The input is a sequence 
+of numbers (positive integers) as they appear in the array representation of the tree. The empty nodes will be 
+denoted by a -1. Output whether the tree is a BST or not (YES/NO). 
+
+
+2. Tree Transformation: Via AVL single rotations, any binary search tree T1 can be transformed into another 
+search tree T2 (with the same keys). Propose and test an algorithm to transfrom a given BST (T1) into the 
+corresponding Complete BST (T2) using only single AVL rotations. Your input is a sequence of integer keys to 
+build a BST. Your output is the Preorder traversals of the tree T1 after each rotation (starting with T1, till you 
+reach T2). 
+
+
+3. Priority Queue: A sequence of processes get enqueued in a priority queue implemented as a heap. The 
+maximum number of processes it can handle at a time is 1000. If more processes try to get enqueue, it prints 
+the message \Process table overow” and continues. 
+Each process has a priority (a real number), E-20.35, means enqueue a process of priority 20.35. End of input will 
+be represented by a process with a priority -1. (E{1), this process should not be enqueued. Then only dequeue 
+takes place until the queue becomes empty. Process with the highest priority is dequeued with (D-Max), when 
+an explicit dequeue is asked for, (or one per second until the Heap becomes empty.) 
+
+Input:
+E-20.35, E-10.0, D-Max, E-32.0, E-25, E--1,
+
+
+In each second, a process looses its priority by 10% of its original (initial) priority value. Output the weighted 
+waiting time for all the process. i.e., Pi piti , where pi is the original priority of the ith process and ti is the 
+weighting time of the ith process to get dequeued. The weighting time for processes dequeued explicitly is zero. 
+
+Input:
+E-10, E-20, E--1.
+
+
+Output:
+80
+
+
+4. Hamiltonian cycle: You are given an undirected weighted graph. Write a program to output a cycle that 
+passes through every edge in the graph exactly once. If such a cycle does not exists, output No Hamiltonian 
+Cycle. 
+Note: Read about hamiltonian cycles before you implement this. 
+
+
+
+5. Connected components: Given an undirected graph, write a program to output the number of connected 
+components in it. 
+
+
+
+6. Maximal Spanning Tree: Given a connected undirected weighted graph, write a program to nd the tree 
+that connects all the nodes, and having the maximum total weight. 
+
+
+
+7. Travel Planning: You are given a graph, where each node represents a city and each edge represents the cost 
+of ying traveling between the two cities. You are given a subset of cities that you would like to visit during 
+this vacation. Find the least-cost travel plan that will take you from your home city, visit all the cities that you 
+want, and return back to your home city. 
+
+
+
+8. Is it a tree: Given a graph, write a program to decide if it is a tree or not. Assume that there is no need for a 
+root in the tree. 
+
+
+
+9. Changing words: You are given two words in english of length n, write a program that computes the shortest 
+set of single character replacements that will transform the rst word to the second word. Note: The intermediate 
+words that you generate should all be valid english words. 
+Input: PINE CAME Output: PINE LINE LANE LAME CAME 
+
+

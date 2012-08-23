@@ -1,0 +1,8 @@
+/* This is hello world  program */
+#include<stdio.h>/* Include standard input/output routines */
+
+int main()/* Main function *//* This is where execution starts */
+{
+        printf(/*"Hello World!\n"*/);/* Print "Hello World" to the output */    /*/*
+        return 0;/*Return success to the OS*/
+}
